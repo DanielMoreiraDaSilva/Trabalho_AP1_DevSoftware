@@ -1,5 +1,6 @@
 ﻿using Core;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
 
 
 
@@ -21,10 +22,6 @@ namespace Repository
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-
-
-            modelBuilder.Entity<ListaDeCompras>()
-                        .HasMany<Produto>(p => )
 
         }
 
